@@ -42,7 +42,7 @@ One thing I learned is that ensemble methods don't always help. When you have a 
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/RNA.git
+git clone https://github.com/AKHIL-149/RNA.git
 cd RNA
 
 # Install dependencies
@@ -53,10 +53,10 @@ pip install -r requirements.txt
 
 ### Running Predictions
 
-The main submission notebook is `akhil.ipynb`, which contains the complete pipeline with all improvements. You can run it locally or upload it to Kaggle.
+The main submission notebook is `rna_structure_prediction_methodology_akhil.ipynb`, which contains the complete pipeline with all improvements. You can run it locally or upload it to Kaggle.
 
 For Kaggle:
-1. Upload `akhil.ipynb` to Kaggle
+1. Upload `rna_structure_prediction_methodology_akhil.ipynb` to Kaggle
 2. Attach your `rna-predictions` dataset
 3. Set Internet to OFF, Accelerator to None
 4. Click "Run All"
@@ -85,7 +85,7 @@ predictions = pipeline.predict(query_seq)
 
 ```
 RNA/
-├── akhil.ipynb              # Main submission notebook (V3 with improvements)
+├── rna_structure_prediction_methodology_akhil.ipynb              # Main submission notebook (V3 with improvements)
 ├── src/
 │   ├── tbm/                 # Template-based modeling implementation
 │   │   ├── pipeline.py      # Main TBM pipeline
@@ -137,7 +137,6 @@ If I continued this project, here's what I would focus on:
 3. **MSA Integration**: Use multiple sequence alignments to improve template selection
 4. **Active Learning**: Identify low-confidence predictions for experimental validation
 
-See NOVEL_APPROACHES_RESEARCH.md for detailed research directions.
 
 ## Version History
 
@@ -168,7 +167,7 @@ The competition winner achieved 0.578 mean TM-score using a hybrid approach comb
 ## References
 
 - Zhang & Skolnick (2004). TM-score: A scoring function for protein structure template quality. Proteins, 57(4), 702-710.
-- Stanford RNA 3D Structure Dataset: https://daslab.stanford.edu/
+- Stanford RNA 3D Structure Dataset: www.kaggle.com/competitions/stanford-rna-3d-folding/overview/citation
 
 ## License
 
