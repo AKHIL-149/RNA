@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data & Results
+*.csv
+*.log
+*.pdb
+*.png
+data/
+results/
+stanford-rna-3d-folding/
+submission*.csv
+figures/
+
+# Old notebooks
+rna_structure_prediction_methodology_akhil.ipynb
+
+# Wheels (already in rna.zip)
+wheels/
