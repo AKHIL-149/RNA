@@ -13,21 +13,16 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb_checkpoints
 
-# Data & Results
-*.csv
-*.log
-*.pdb
-*.png
+# Large data directories
 data/
-results/
 stanford-rna-3d-folding/
-submission*.csv
-figures/
 
-# Old notebooks
-rna_structure_prediction_methodology_akhil.ipynb
+# Generated results
+results/
+submission*.csv
+*.log
 
 # Wheels (already in rna.zip)
 wheels/
+EOF
